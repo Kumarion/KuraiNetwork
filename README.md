@@ -1,5 +1,7 @@
 # Kurai Neural Network
 KuraiNetwork is a neural network library written in Luau.
+Note: This library is still in development and is not ready for production use.
+Note: I plan on scaling up the network to support more layers and more nodes per layer. I also plan on adding a genetic algorithm to train the network.
 
 ## Usage
 ```lua
@@ -37,5 +39,3 @@ for i = 1, 10 do
     print(string.format("Input: %s, Output: %s, Prediction: %s", input, output, prediction[1]));
 end
 ```
-
-## I plan on scaling up the network to support more layers and more nodes per layer. I also plan on adding a genetic algorithm to train the network.
