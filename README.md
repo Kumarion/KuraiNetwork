@@ -4,6 +4,8 @@ KuraiNetwork is a neural network library written in Luau. <br />
 Note: This library is still in development and is not ready for production use. <br />
 Note: I plan on scaling up the network to support more layers and more nodes per layer. I also plan on adding a genetic algorithm to train the network.
 
+Only supports backpropagation for now.
+
 ## Usage
 ```lua
 local KuraiNetwork = require(game:GetService("ReplicatedStorage"):WaitForChild("KuraiNetwork"));
